@@ -1,0 +1,6 @@
+<launch>
+
+  <include file="$(find mico_simplified_gazebo)/launch/mico.launch"></include>
+  <include file="$(find mico_simplified_control)/launch/mico_simplified_control.launch"></include>
+  <!--<include file="$(find mico_simplified)/launch/mico_simplified_rviz.launch"></include> -->
+</launch>
